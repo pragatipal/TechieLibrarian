@@ -1,23 +1,4 @@
-# MINI PROJECT 1 OOPS
-#
-# make a library class:
-#     then make a method to display book in the library
-#     then make a method if someone wants to donate a book (add_book)
-#     make a method if someone wants to borrow a book (lend_book)
-#     make a method if someone wants to return his taken book back (return_book)
-
-# koi yha khud se library bnake library class ka object bnayega
-# JUhi_library = Library(listofbooks, library name)
-#
-# ek dictionary bna skte hain ki kaunsi book kiske paas hai fir agr koi
-# mangega toh usko bta skte hain kiske paas hai agar library me nhi hai
-# key= books
-# value = naam
-#
-# assuming no method misuse by user
-#
-# create a main function with infinite loop ki kisko kya krna hai charon
-
+# TECHIE LIBRARY
 class Library:
     genres= []
     total_books=[]
